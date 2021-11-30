@@ -79,6 +79,10 @@ int main() {
 		}
 		if (operation == "/" || operation == "div") {
 			result = num1 / num2;
+			if (num1 == 0 || num2 == 0) {
+					cout << "Cannot divide by zero";
+					exit;
+				}
 			cout << "Result is " << result << "\n";
 		}
 	}
