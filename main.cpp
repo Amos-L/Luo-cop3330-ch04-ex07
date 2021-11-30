@@ -54,7 +54,6 @@ int main() {
 	double num2 = 0;
 	double result{};
 	string input1, input2;
-	int x = 1;
 
 	cout << "Enter operation: \n";
 	cin >> operation;
